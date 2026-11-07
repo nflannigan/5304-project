@@ -30,7 +30,7 @@
 
     #vis.vega-embed details,
     #vis.vega-embed details summary {
-      position: absolute;
+      position: relative;
     }
   </style>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
@@ -58,28 +58,13 @@
     })(vegaEmbed);
 
   </script>
+</body>
 
-
+<br>
 <p style="font-size:120%;">The following dashboard shows the relationship between the cumulative box office of all of the best picture nominees for a given year and the ratings for that year's Oscar telecast.</p>
+<br>
 
-<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    #vis.vega-embed {
-      width: 100%;
-      display: flex;
-    }
 
-    #vis.vega-embed details,
-    #vis.vega-embed details summary {
-      position: absolute;
-    }
-  </style>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.8.0"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-</head>
 <body>
   <div id="vis"></div>
   <script>
@@ -102,7 +87,6 @@
 
   </script>
 </body>
-</html>
 
 <p>Note: "Frankenstein"(2026), "Train Dreams"(2026), "Emilia Pérez"(2025), "Maestro"(2024), "All Quiet on the Western Front"(2023), "Coda"(2022), "Don’t Look Up"(2022), "The Power of the Dog"(2022), "Mank"(2021), "Sound of Metal"(2021), "The Trial of the Chicago 7"(2021), "The Irishman"(2020), "Marriage Story"(2020), and "Roma"(2019)
     were excluded from the dataset because they were distributed online by Netflix/Apple and were not released in theaters.</p>
